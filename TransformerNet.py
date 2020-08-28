@@ -198,7 +198,7 @@ class Tail(nn.Module):
 
 
 # base is resnet
-# Tail is the main transormer network
+# Tail is the main transformer network
 class Semi_Transformer(nn.Module):
     def __init__(self, num_classes, seq_len):
         super(Semi_Transformer, self).__init__()
